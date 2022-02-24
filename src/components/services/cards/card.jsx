@@ -1,18 +1,17 @@
-import React from 'react'
-import "./card.css"
+import React from "react";
+import "./card.css";
 
 export default function Card(props) {
+  const { background, title, description } = props;
   return (
     <section className="cards">
-        <div className="card-shape">
-            <div className="icon">
-                Icon here
-            </div>
-            <div className="info">
-                <h3>{props.title}</h3>
-                <p>{props.description}</p>
-            </div>
+      <div className="card-shape">
+        <div className="icon">{background}</div>
+        <div className="info">
+          <h3>{title}</h3>
+          <p>{description}</p>
         </div>
-      </section>
-  )
+      </div>
+    </section>
+  );
 }
