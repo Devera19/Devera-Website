@@ -6,8 +6,13 @@ export default function TopBar() {
     <div className="topbar-container">
       <div className="wrapper">
         <div className="left">
+
+        <div className="logo-background"></div>
+
           <span className="logo">DEVERA</span>
         </div>
+
+
 
         <div className="right">
           <a href="#home" className="home">

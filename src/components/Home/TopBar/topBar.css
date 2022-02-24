@@ -1,6 +1,6 @@
 .topbar-container {
   width: 100%;
-  height:60px;
+  height: 60px;
   display: flex;
   top: 0;
   z-index: 2;
@@ -13,22 +13,37 @@
   align-items: center;
   justify-content: space-between;
 }
+.left {
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+}
+
+.logo-background {
+  height: 70px;
+  width: 70px;
+  background-image: url(../../../../utils/images/DevEra\ logo.png);
+  background-size: cover;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 
 .logo {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 40px;
   text-decoration: none;
   color: white;
-  margin-left: 70px;
   cursor: pointer;
 }
 
-.logo:hover{
+.logo:hover {
   text-decoration: none;
   color: var(--light-blue);
 }
 
-.right{
+.right {
   text-align: center;
   align-items: center;
   justify-content: space-between;
@@ -36,18 +51,14 @@
   margin: 300px;
 }
 
-.right  a{
+.right a {
   margin-left: 20px;
   text-decoration: none;
   font-size: 14px;
   color: white;
 }
 
-.right  a:hover{
+.right a:hover {
   color: var(--light-blue);
   text-decoration: none;
 }
-
-
-
-
