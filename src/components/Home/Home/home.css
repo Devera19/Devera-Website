@@ -1,12 +1,8 @@
-.profile-container {
-
-  display: flex;
+.profile-container {display: flex;
   text-align: center;
   align-items: center;
   justify-content: center;
   min-height: fit-content;
-  top: 70px;
-  height: calc(100vh - 70px);
 }
 
 .profile-parent {
