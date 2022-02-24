@@ -1,24 +1,45 @@
 import React from "react";
 import Reusable from "../utils/reusable/reusable";
+import Card from "./cards/card";
+import Cards from "./cards/card";
 import "./services.css";
 
 export default function Services() {
   return (
     <div className="services-container" id="services">
-      <Reusable className="reusable-services" title="Services" subHeading="What can we do for you" />
+      <Reusable
+        className="reusable-services"
+        title="Services"
+        subHeading="What can we do for you"
+      />
 
-      <section className="cards">
-        <div className="card-shape">
-            <div className="icon">
-                Icon here
-            </div>
-            <div className="info">
-                <h3>Web Development</h3>
-                <p>Creation of backend and frontend applications</p>
-            </div>
-        </div>
-      </section>
-
+      <div className="cards-container">
+        <Card
+          className="reusable-cards"
+          title="Web Development"
+          description="Creation of front and back end websites and stuff and stuff and stuff "
+        />
+        <Card
+          className="reusable-cards"
+          title="Web Development"
+          description="Creation of front and back end websites and stuff and stuff and stuff "
+        />
+        <Card
+          className="reusable-cards"
+          title="Web Development"
+          description="Creation of front and back end websites and stuff and stuff and stuff "
+        />
+        <Card
+          className="reusable-cards"
+          title="Web Development"
+          description="Creation of front and back end websites and stuff and stuff and stuff "
+        />
+        <Card
+          className="reusable-cards"
+          title="Web Development"
+          description="Creation of front and back end websites and stuff and stuff and stuff "
+        />
+      </div>
     </div>
   );
 }
