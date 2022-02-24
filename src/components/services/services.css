@@ -1,0 +1,36 @@
+.services-container {
+  width: 100%;
+  height: 100vh;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card-shape {
+  background-color: #171717;
+  height: 350px;
+  width: 300px;
+  box-shadow: 0 5px 25px rgba(1 1 1 / 23%);
+  border-radius: 10px ;
+  padding: 10px;
+  margin: 15px;
+}
+.card-shape .icon {
+  height: 190px;
+  color: white;
+}
+
+.card-shape:hover{
+    transform: scale(1.1);
+    transition: 0.7s ease;
+}
+.info h3 {
+    color: var(--light-blue);
+}
+.info p{
+    color: white;
+}
