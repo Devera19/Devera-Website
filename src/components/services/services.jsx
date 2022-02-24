@@ -15,7 +15,7 @@ export default function Services() {
       <div className="cards-container">
         <Card
           className="reusable-cards"
-          background = { <img src="./home-bg.jpg" alt=" Not available" /> }  
+          background  
           title="Web Development"
           description="Creation of front and back end websites and stuff and stuff and stuff "
         />

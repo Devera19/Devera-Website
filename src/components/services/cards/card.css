@@ -4,6 +4,16 @@
     flex-direction: row;
     flex-wrap: wrap;
   }
+
+  .icon {
+    background-image: url(../home.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px ;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+  }
   
   .card-shape {
     background-color: #171717;
@@ -11,7 +21,7 @@
     width: 300px;
     box-shadow: 0 5px 25px rgba(1 1 1 / 23%);
     border-radius: 10px ;
-    padding: 10px;
+    padding: 0px;
     margin: 25px;
   }
   .card-shape .icon {
@@ -22,6 +32,9 @@
   .card-shape:hover{
       transform: scale(1.1);
       transition: 0.7s ease;
+  }
+  .info{
+    padding: 10px;
   }
   .info h3 {
       color: var(--light-blue);
