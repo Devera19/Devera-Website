@@ -10,6 +10,7 @@ function App() {
       
       <Profile />
       <Services />
+      <AboutUs />
       <Testimonials />
     </div>
   );

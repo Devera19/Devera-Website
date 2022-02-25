@@ -3,13 +3,21 @@
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
+    
   }
 
-  .icon {
-    background-image: url(../home.jpg);
+  .icon  {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    border-radius: 10px ;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+  }
+
+  .icon img{
+    height: 190px;
+    width: 100%;
     border-radius: 10px ;
     border-bottom-right-radius: 0px;
     border-bottom-left-radius: 0px;
@@ -22,7 +30,7 @@
     box-shadow: 0 5px 25px rgba(1 1 1 / 23%);
     border-radius: 10px ;
     padding: 0px;
-    margin: 25px;
+    margin: 35px;
   }
   .card-shape .icon {
     height: 190px;

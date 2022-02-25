@@ -1,0 +1,44 @@
+.person-cards {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.person-icon {
+  /* background-image: url(../../services/home.jpg); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 10px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+.person-card-shape {
+  background-color: #171717;
+  height: 350px;
+  width: 300px;
+  box-shadow: 0 5px 25px rgba(1 1 1 / 23%);
+  border-radius: 10px;
+  padding: 0px;
+  margin: 25px;
+}
+.person-card-shape .icon {
+  height: 190px;
+  color: white;
+}
+
+.person-card-shape:hover {
+  transform: scale(1.1);
+  transition: 0.7s ease;
+}
+.info {
+  padding: 10px;
+}
+.info h3 {
+  color: var(--light-blue);
+}
+.info p {
+  color: white;
+}
