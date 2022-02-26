@@ -4,21 +4,19 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-
 }
 .header-info {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
-
 }
 
 .person-icon {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  
+
   /* border-bottom-right-radius: 0px;
   border-bottom-left-radius: 0px; */
   height: 150px;
@@ -26,23 +24,28 @@
   margin-top: 10px;
   margin-bottom: 10px;
 }
-.person-icon img{
+.person-icon img {
   height: 150px;
   width: 150px;
   border-radius: 50%;
+  border: 2px ridge white;
+  border-radius: 50%;
 }
-
 
 .person-card-shape {
   height: 340px;
   width: 300px;
-  /* box-shadow: 0 5px 25px rgba(255, 255, 255, 0.23); */
-  border: 2px ridge var(--light-blue) ;
-  border-radius: 10px;
+   box-shadow: 0 5px 25px rgba(255, 255, 255, 0.08); 
+  border: 2px ridge var(--light-blue);
+  border-radius: 25%;
   padding: 0px;
   margin: 25px;
-  background: rgb(0,0,0);
-background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(0,60,131,1) 100%);
+  background: rgb(0, 0, 0);
+  background: radial-gradient(
+    circle,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 60, 131, 1) 100%
+  );
 }
 .person-card-shape .icon {
   height: 190px;
@@ -56,18 +59,18 @@ background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(0,60,131,1) 100%);
 .person.info {
   padding: 10px;
 }
-.full-name{
+.full-name {
   color: var(--light-blue);
 }
 .person.info p {
   color: white;
 }
-.more-info{
+.more-info {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.fa-solid{
+.fa-solid {
   margin-right: 15px;
 }
 
