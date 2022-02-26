@@ -32,6 +32,7 @@
     linear-gradient(90deg, rgb(33, 33, 33), rgb(33, 33, 33));
 }
 
+
 .aboutus-container .heading {
   display: flex;
   justify-content: center;
@@ -61,4 +62,5 @@
 .aboutus-container .separator-line {
   background-color: #fff;
 }
+
 

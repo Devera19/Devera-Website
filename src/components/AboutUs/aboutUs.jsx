@@ -7,10 +7,14 @@ import obito from './images/obito.jpg'
 import deidara from './images/deidara.jpg'
 import kakuzu from './images/kakuzu.jpg'
 import pain from './images/pain.jpg'
+import HeaderWave from "./headerWave/headerWave";
+import FooterWave from "./footerWave/footerWave"
 
 export default function AboutUs() {
   return (
     <div className="aboutus-container">
+
+      <HeaderWave />
       
       <div className="screen-heading">
         <span>About Us</span>
@@ -65,6 +69,8 @@ export default function AboutUs() {
           background={pain}
         />
       </div>
+
+      <FooterWave />
     </div>
   );
 }
