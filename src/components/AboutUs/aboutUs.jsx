@@ -11,11 +11,22 @@ import pain from './images/pain.jpg'
 export default function AboutUs() {
   return (
     <div className="aboutus-container">
-      <h4 className="aboutus-header">
-        We're a group of six enthusiastic computer science engineers with high
-        hopes and dreams, full of potencial and very hard workers, we're here to
-        satisfy every need that our clients can hope for.
-      </h4>
+      
+      <div className="screen-heading">
+        <span>About Us</span>
+      
+        <div className="screen-sub-heading">
+          <span>Meet our team </span>
+        </div>
+        <div></div>
+      <div className="heading-separator">
+        <div className="separator-line">
+          <div className="separator-blob">
+            <div></div>
+          </div>
+        </div>
+      </div>
+      </div>
       <div className="person-cards-container">
         <Person
           title="Boulkenafet Sami"

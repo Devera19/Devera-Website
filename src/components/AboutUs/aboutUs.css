@@ -50,9 +50,15 @@
   margin-right: 30px;
 }
 
-.aboutus-header {
-  font-size: 18px;
-  margin-top: 20px;
-  margin-left:  80px;
-  margin-right: 80px;
+.aboutus-container .screen-heading{
+  margin-top: 10px;
+  color: white;
 }
+.aboutus-container .screen-sub-heading{
+  color: white;
+  font-size: 14px;
+}
+.aboutus-container .separator-line {
+  background-color: #fff;
+}
+
