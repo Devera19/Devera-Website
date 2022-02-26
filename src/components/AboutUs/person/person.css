@@ -1,31 +1,40 @@
 .person-cards {
   display: flex;
-  justify-content: center;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 
 }
 .header-info {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
 
 }
 
 .person-icon {
-  background-image: url(../../services/images/home.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  border-radius: 50%;
+  
   /* border-bottom-right-radius: 0px;
   border-bottom-left-radius: 0px; */
   height: 150px;
   width: 150px;
   margin-top: 10px;
+  margin-bottom: 10px;
+}
+.person-icon img{
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
 }
 
+
 .person-card-shape {
-  height: 350px;
+  height: 340px;
   width: 300px;
   /* box-shadow: 0 5px 25px rgba(255, 255, 255, 0.23); */
   border: 2px ridge var(--light-blue) ;
@@ -38,7 +47,7 @@
   color: white;
 }
 
-.person-card-shape:hover {
+.person-icon:hover {
   transform: scale(1.1);
   transition: 0.7s ease;
 }
@@ -50,4 +59,21 @@
 }
 .person.info p {
   color: white;
+}
+.more-info{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fa-solid{
+  margin-right: 15px;
+}
+
+.contact-staff {
+  margin-top: 20px;
+  transform: scale(1.4);
+}
+
+.contact-staff i {
+  margin-right: 10px;
 }
