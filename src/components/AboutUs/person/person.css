@@ -35,7 +35,7 @@
 .person-card-shape {
   height: 340px;
   width: 300px;
-   box-shadow: 0 5px 25px rgba(255, 255, 255, 0.08); 
+  box-shadow: 0 5px 25px rgba(255, 255, 255, 0.08); 
   border: 2px ridge var(--light-blue);
   border-radius: 25%;
   padding: 0px;
