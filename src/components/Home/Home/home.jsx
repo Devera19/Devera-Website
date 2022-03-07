@@ -10,19 +10,19 @@ export default function Home() {
           <div className="colz">
             <div className="colz-icon">
               <a href="https://www.facebook.com/profile.php?id=100015419709090">
-              <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-facebook"></i>
               </a>
               <a href="">
-              <i class="fa-brands fa-google-plus"></i>
+                <i class="fa-brands fa-google-plus"></i>
               </a>
               <a href="">
-              <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-instagram"></i>
               </a>
               <a href="">
-              <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-youtube"></i>
               </a>
               <a href="">
-              <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-twitter"></i>
               </a>
             </div>
           </div>
@@ -40,6 +40,8 @@ export default function Home() {
                 <Typical
                   loop={Infinity}
                   steps={[
+                    "Logo Design ",
+                    1000,
                     "Full Stack Dev ",
                     1000,
                     "Desktop Dev 💻",
@@ -66,7 +68,6 @@ export default function Home() {
           <div className="profile-picture-background"></div>
         </div>
       </div>
-    
     </div>
   );
 }

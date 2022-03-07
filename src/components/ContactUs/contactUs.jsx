@@ -39,8 +39,11 @@ export default function ContactUs() {
         </div>
         <div className="contactus-right">
           <span> Name </span>
+          <input className="input-name"></input>
           <span> Email </span>
+          <input className="input-email"></input>
           <span> Message </span>
+          <input className="input-message"></input>
         </div>
       </div>
     </div>

@@ -111,8 +111,7 @@ body ::-webkit-scrollbar-thumb {
   width: 160px;
   cursor: pointer;
   transition: 0.2s;
-  font-family: "Poppins SemiBold";
-  
+  font-family: "Poppins SemiBold"; 
 }
 
 .btn:active {

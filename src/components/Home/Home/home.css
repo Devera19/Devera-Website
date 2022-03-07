@@ -57,6 +57,7 @@
 
 .profile-picture {
   display: flex;
+  background-size: cover;
   align-items: center;
   justify-content: center;
   box-shadow: 0 0px 0px 0px #111;
